@@ -47,7 +47,6 @@
 .modal-input:hover {
   border: 1px solid #4d5ae5;
   border-radius: 4px;
-  outline: none;
 }
 /* .modal-input:focus + .modal-icon {
   border: 1px solid #4d5ae5;
@@ -56,11 +55,7 @@
 .modal-input:focus + .modal-icon {
   fill: #4d5ae5;
 }
-.modal-comment:hover, .modal-comment:focus{
-  border: 1px solid #4d5ae5;
-  border-radius: 4px;
-  outline: none;
-}
+
 /* input:focus {
   border: 1px solid #4d5ae5;
   border-radius: 4px;
