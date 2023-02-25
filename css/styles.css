@@ -38,7 +38,7 @@
 .modal-icon {
   position: absolute;
   left: 16px;
-  top: 50%;
+  top: 65%;
   transform: translateY(-50%);
 }
 .input-wrap {
@@ -115,6 +115,7 @@
 .modal-field {
   margin-bottom: 8px;
   text-align: left;
+  position: relative;
 }
 
 /* lastchild дописати для нижн марджина 8пх */
@@ -196,6 +197,7 @@
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  /* padding: 72px 24px 24px 24px; */
   padding: 24px;
   transition: transform 300ms linear;
 }
@@ -764,6 +766,9 @@ body {
   margin-left: auto;
 }
 .subscribe-position {
+  margin-left: 80px;
+}
+.subscribe-form {
   display: flex;
   justify-content: flex-end;
   gap: 24px;

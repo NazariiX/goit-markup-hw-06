@@ -62,14 +62,14 @@
       <section class="section-hero hero-wrap">
         <div class="container">
           <h1 class="hero">Effective Solutions for Your Business</h1>
-          <button type="button" class="button-hero" data-modal-open>
+          <button class="button-hero" type="button" data-modal-open>
             Order Service
           </button>
         </div>
         <!--  <div class="backdrop is-hidden" data-modal> -->
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <button type="button" class="modal-close" data-modal-close>
+            <button class="modal-close" type="button" data-modal-close>
               <svg class="modal-icon-close" width="8" height="8">
                 <use href="./images/icons.svg#icon-close-black"></use>
               </svg>
@@ -80,56 +80,43 @@
             <form class="modal-form">
               <div class="modal-field">
                 <label class="input-text" for="name">Name</label>
-                <div class="input-wrap">
-                  <input
-                    class="modal-input"
-                    type="text"
-                    name="name"
-                    id="name"
-                  />
-                  <svg class="modal-icon" width="18px" height="18px">
-                    <use href="./images/icons.svg#icon-person-black-icon"></use>
-                  </svg>
-                </div>
+                <input class="modal-input" type="text" name="name" id="name" />
+                <svg class="modal-icon" width="18px" height="18px">
+                  <use href="./images/icons.svg#icon-person-black-icon"></use>
+                </svg>
               </div>
               <div class="modal-field">
                 <label class="input-text" for="phone">Phone</label>
-                <div class="input-wrap">
-                  <input
-                    class="modal-input"
-                    type="text"
-                    name="phone"
-                    id="phone"
-                  />
-                  <svg class="modal-icon" width="18px" height="18px">
-                    <use href="./images/icons.svg#icon-phone-black-icon"></use>
-                  </svg>
-                </div>
+                <input
+                  class="modal-input"
+                  type="text"
+                  name="phone"
+                  id="phone"
+                />
+                <svg class="modal-icon" width="18px" height="24px">
+                  <use href="./images/icons.svg#icon-phone-black-icon"></use>
+                </svg>
               </div>
               <div class="modal-field">
                 <label class="input-text" for="email">Email</label>
-                <div class="input-wrap">
-                  <input
-                    class="modal-input"
-                    type="text"
-                    name="email"
-                    id="email"
-                  />
-                  <svg class="modal-icon" width="18px" height="18px">
-                    <use href="./images/icons.svg#icon-email-black-icon"></use>
-                  </svg>
-                </div>
+                <input
+                  class="modal-input"
+                  type="text"
+                  name="email"
+                  id="email"
+                />
+                <svg class="modal-icon" width="18px" height="24px">
+                  <use href="./images/icons.svg#icon-email-black-icon"></use>
+                </svg>
               </div>
               <div class="modal-field">
                 <label class="input-text" for="Comment">Comment</label>
-                <div class="input-wrap">
-                  <textarea
-                    class="modal-comment"
-                    name="comment"
-                    id="comment"
-                    placeholder="Text input"
-                  ></textarea>
-                </div>
+                <textarea
+                  class="modal-comment"
+                  name="comment"
+                  id="comment"
+                  placeholder="Text input"
+                ></textarea>
               </div>
               <div class="check-field">
                 <input
@@ -510,26 +497,23 @@
           </ul>
         </div>
 
-        <div class="container-footer-subscribe">
+        <div class="subscribe-position">
           <p class="container-footer-soc-title">Subscribe</p>
-          <div class="subscribe-position">
-            <form class="">
-              <label class="subscribe-label" for="Subscribe"></label>
-              <input
-                class="subscribe-input"
-                type="text"
-                name="Subscribe"
-                id="Subscribe"
-                placeholder="E-mail"
-              />
-            </form>
+          <form class="subscribe-form">
+            <input
+              class="subscribe-input"
+              type="text"
+              name="Subscribe"
+              id="Subscribe"
+              placeholder="E-mail"
+            />
             <button class="button-subscribe" type="submit">
               Subscribe
               <svg class="icon-frame" width="24" height="24">
                 <use href="./images/icons.svg#icon-Frame"></use>
               </svg>
             </button>
-          </div>
+          </form>
         </div>
       </div>
     </footer>
