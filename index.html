@@ -67,7 +67,7 @@
           </button>
         </div>
         <!--  <div class="backdrop is-hidden" data-modal> -->
-        <div class="backdrop" data-modal>
+        <div class="backdrop is-hidden" data-modal>
           <div class="modal">
             <button type="button" class="modal-close" data-modal-close>
               <svg class="modal-icon-close" width="8" height="8">
@@ -139,14 +139,14 @@
                   id="policy"
                   value="true"
                 />
-
                 <label class="input-text" for="policy">
                   <span>
                     <svg class="check-icon" width="10px" height="8px">
                       <use href="./images/icons.svg#icon-Vector"></use>
                     </svg>
                   </span>
-                  I accept the terms and conditions of the Privacy Policy</label
+                  I accept the terms and conditions of the
+                  <a class="policy-link" href="#">Privacy Policy</a></label
                 >
               </div>
 
@@ -508,6 +508,28 @@
               </a>
             </li>
           </ul>
+        </div>
+
+        <div class="container-footer-subscribe">
+          <p class="container-footer-soc-title">Subscribe</p>
+          <div class="subscribe-position">
+            <form class="">
+              <label class="subscribe-label" for="Subscribe"></label>
+              <input
+                class="subscribe-input"
+                type="text"
+                name="Subscribe"
+                id="Subscribe"
+                placeholder="E-mail"
+              />
+            </form>
+            <button class="button-subscribe" type="submit">
+              Subscribe
+              <svg class="icon-frame" width="24" height="24">
+                <use href="./images/icons.svg#icon-Frame"></use>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
     </footer>
